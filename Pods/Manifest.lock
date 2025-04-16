@@ -1,0 +1,32 @@
+PODS:
+  - GoogleMaps (9.1.1):
+    - GoogleMaps/Maps (= 9.1.1)
+  - GoogleMaps/Base (9.1.1)
+  - GoogleMaps/Maps (9.1.1):
+    - GoogleMaps/Base
+  - GooglePlaces (9.1.0)
+  - Socket.IO-Client-Swift (16.1.1):
+    - Starscream (~> 4.0.8)
+  - Starscream (4.0.8)
+
+DEPENDENCIES:
+  - GoogleMaps (= 9.1.1)
+  - GooglePlaces
+  - Socket.IO-Client-Swift (~> 16.1.1)
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+    - GooglePlaces
+    - Socket.IO-Client-Swift
+    - Starscream
+
+SPEC CHECKSUMS:
+  GoogleMaps: 80ea184ed6bf44139f383a8b0e248ba3ec1cc8c9
+  GooglePlaces: 00c43ad62c888354fe0bc5ce09181b2f6ce8b6d1
+  Socket.IO-Client-Swift: 3614bea82ba005df1c2ff01154f4004993e05ad7
+  Starscream: 19b5533ddb925208db698f0ac508a100b884a1b9
+
+PODFILE CHECKSUM: 706855e05210fd647c56483a3ccc6149e8d0da80
+
+COCOAPODS: 1.15.2

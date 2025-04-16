@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00406AEB2CE9BDBA0043EB6F /* AppStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00406AEA2CE9BDBA0043EB6F /* AppStateManager.swift */; };
 		006B3D9B2CCA005000D460CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006B3D9A2CCA005000D460CC /* AppDelegate.swift */; };
 		006B3D9D2CCA005000D460CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006B3D9C2CCA005000D460CC /* SceneDelegate.swift */; };
 		006B3D9F2CCA005000D460CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006B3D9E2CCA005000D460CC /* ViewController.swift */; };
@@ -17,6 +18,10 @@
 		006B3DB52CCA005400D460CC /* LocationTrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006B3DB42CCA005400D460CC /* LocationTrackingTests.swift */; };
 		006B3DBF2CCA005400D460CC /* LocationTrackingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006B3DBE2CCA005400D460CC /* LocationTrackingUITests.swift */; };
 		006B3DC12CCA005400D460CC /* LocationTrackingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006B3DC02CCA005400D460CC /* LocationTrackingUITestsLaunchTests.swift */; };
+		006B3DCE2CCA007F00D460CC /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006B3DCD2CCA007F00D460CC /* WebSocketManager.swift */; };
+		6A67BD5D627E938376144668 /* Pods_LocationTracking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97F713E9D0BDC5295FB0FCE2 /* Pods_LocationTracking.framework */; };
+		6B2FB2791F31BBD3F56BE398 /* Pods_LocationTrackingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE95F481F58F26AD041B2A6 /* Pods_LocationTrackingTests.framework */; };
+		E186292677D38D0D2488CF22 /* Pods_LocationTracking_LocationTrackingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DC1DF074386A59306E2604 /* Pods_LocationTracking_LocationTrackingUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00406AEA2CE9BDBA0043EB6F /* AppStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateManager.swift; sourceTree = "<group>"; };
 		006B3D972CCA005000D460CC /* LocationTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		006B3D9A2CCA005000D460CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		006B3D9C2CCA005000D460CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +57,16 @@
 		006B3DBA2CCA005400D460CC /* LocationTrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationTrackingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		006B3DBE2CCA005400D460CC /* LocationTrackingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTrackingUITests.swift; sourceTree = "<group>"; };
 		006B3DC02CCA005400D460CC /* LocationTrackingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTrackingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		006B3DCD2CCA007F00D460CC /* WebSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketManager.swift; sourceTree = "<group>"; };
+		0BE95F481F58F26AD041B2A6 /* Pods_LocationTrackingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationTrackingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B48DC6A9F2EC391734E357F /* Pods-LocationTrackingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationTrackingTests.release.xcconfig"; path = "Target Support Files/Pods-LocationTrackingTests/Pods-LocationTrackingTests.release.xcconfig"; sourceTree = "<group>"; };
+		76CB3A04BF3A32BC54F898CF /* Pods-LocationTracking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationTracking.debug.xcconfig"; path = "Target Support Files/Pods-LocationTracking/Pods-LocationTracking.debug.xcconfig"; sourceTree = "<group>"; };
+		777A58E4950D4951BF02FC14 /* Pods-LocationTracking-LocationTrackingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationTracking-LocationTrackingUITests.release.xcconfig"; path = "Target Support Files/Pods-LocationTracking-LocationTrackingUITests/Pods-LocationTracking-LocationTrackingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		78C9CC7581F170C2F91AAB2F /* Pods-LocationTracking-LocationTrackingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationTracking-LocationTrackingUITests.debug.xcconfig"; path = "Target Support Files/Pods-LocationTracking-LocationTrackingUITests/Pods-LocationTracking-LocationTrackingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		97F713E9D0BDC5295FB0FCE2 /* Pods_LocationTracking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationTracking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A7FFE4F5F178CE1A5331A9 /* Pods-LocationTracking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationTracking.release.xcconfig"; path = "Target Support Files/Pods-LocationTracking/Pods-LocationTracking.release.xcconfig"; sourceTree = "<group>"; };
+		A830AF42F02A46D5E4023FAC /* Pods-LocationTrackingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationTrackingTests.debug.xcconfig"; path = "Target Support Files/Pods-LocationTrackingTests/Pods-LocationTrackingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7DC1DF074386A59306E2604 /* Pods_LocationTracking_LocationTrackingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocationTracking_LocationTrackingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A67BD5D627E938376144668 /* Pods_LocationTracking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B2FB2791F31BBD3F56BE398 /* Pods_LocationTrackingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E186292677D38D0D2488CF22 /* Pods_LocationTracking_LocationTrackingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +104,8 @@
 				006B3DB32CCA005400D460CC /* LocationTrackingTests */,
 				006B3DBD2CCA005400D460CC /* LocationTrackingUITests */,
 				006B3D982CCA005000D460CC /* Products */,
+				DC835BD0BAB4664F964946F7 /* Pods */,
+				1CF01374C6EB27AA38EB2D4C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +130,8 @@
 				006B3DA82CCA005400D460CC /* LaunchScreen.storyboard */,
 				006B3DAB2CCA005400D460CC /* Info.plist */,
 				006B3DA32CCA005000D460CC /* LocationTracking.xcdatamodeld */,
+				006B3DCD2CCA007F00D460CC /* WebSocketManager.swift */,
+				00406AEA2CE9BDBA0043EB6F /* AppStateManager.swift */,
 			);
 			path = LocationTracking;
 			sourceTree = "<group>";
@@ -130,6 +153,29 @@
 			path = LocationTrackingUITests;
 			sourceTree = "<group>";
 		};
+		1CF01374C6EB27AA38EB2D4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97F713E9D0BDC5295FB0FCE2 /* Pods_LocationTracking.framework */,
+				C7DC1DF074386A59306E2604 /* Pods_LocationTracking_LocationTrackingUITests.framework */,
+				0BE95F481F58F26AD041B2A6 /* Pods_LocationTrackingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC835BD0BAB4664F964946F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76CB3A04BF3A32BC54F898CF /* Pods-LocationTracking.debug.xcconfig */,
+				A2A7FFE4F5F178CE1A5331A9 /* Pods-LocationTracking.release.xcconfig */,
+				78C9CC7581F170C2F91AAB2F /* Pods-LocationTracking-LocationTrackingUITests.debug.xcconfig */,
+				777A58E4950D4951BF02FC14 /* Pods-LocationTracking-LocationTrackingUITests.release.xcconfig */,
+				A830AF42F02A46D5E4023FAC /* Pods-LocationTrackingTests.debug.xcconfig */,
+				1B48DC6A9F2EC391734E357F /* Pods-LocationTrackingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 006B3DC42CCA005400D460CC /* Build configuration list for PBXNativeTarget "LocationTracking" */;
 			buildPhases = (
+				814ACB6C766CB2834E85F3A8 /* [CP] Check Pods Manifest.lock */,
 				006B3D932CCA005000D460CC /* Sources */,
 				006B3D942CCA005000D460CC /* Frameworks */,
 				006B3D952CCA005000D460CC /* Resources */,
+				DAC500784B307BD3EC4B250C /* [CP] Embed Pods Frameworks */,
+				249032A49992FDB3C5EAC324 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -154,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 006B3DC72CCA005400D460CC /* Build configuration list for PBXNativeTarget "LocationTrackingTests" */;
 			buildPhases = (
+				E9105660C0DB912BFBF75EE4 /* [CP] Check Pods Manifest.lock */,
 				006B3DAC2CCA005400D460CC /* Sources */,
 				006B3DAD2CCA005400D460CC /* Frameworks */,
 				006B3DAE2CCA005400D460CC /* Resources */,
@@ -172,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 006B3DCA2CCA005400D460CC /* Build configuration list for PBXNativeTarget "LocationTrackingUITests" */;
 			buildPhases = (
+				330AEC735ADD208F9A99332B /* [CP] Check Pods Manifest.lock */,
 				006B3DB62CCA005400D460CC /* Sources */,
 				006B3DB72CCA005400D460CC /* Frameworks */,
 				006B3DB82CCA005400D460CC /* Resources */,
+				4AD4AD5F23E18FDD832C6E4B /* [CP] Embed Pods Frameworks */,
+				26B445B1B142F5C765EFF9D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,12 +309,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		249032A49992FDB3C5EAC324 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocationTracking/Pods-LocationTracking-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocationTracking/Pods-LocationTracking-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LocationTracking/Pods-LocationTracking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26B445B1B142F5C765EFF9D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocationTracking-LocationTrackingUITests/Pods-LocationTracking-LocationTrackingUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocationTracking-LocationTrackingUITests/Pods-LocationTracking-LocationTrackingUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LocationTracking-LocationTrackingUITests/Pods-LocationTracking-LocationTrackingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		330AEC735ADD208F9A99332B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocationTracking-LocationTrackingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AD4AD5F23E18FDD832C6E4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocationTracking-LocationTrackingUITests/Pods-LocationTracking-LocationTrackingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocationTracking-LocationTrackingUITests/Pods-LocationTracking-LocationTrackingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LocationTracking-LocationTrackingUITests/Pods-LocationTracking-LocationTrackingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		814ACB6C766CB2834E85F3A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocationTracking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC500784B307BD3EC4B250C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocationTracking/Pods-LocationTracking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LocationTracking/Pods-LocationTracking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LocationTracking/Pods-LocationTracking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9105660C0DB912BFBF75EE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LocationTrackingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		006B3D932CCA005000D460CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				006B3D9F2CCA005000D460CC /* ViewController.swift in Sources */,
+				00406AEB2CE9BDBA0043EB6F /* AppStateManager.swift in Sources */,
+				006B3DCE2CCA007F00D460CC /* WebSocketManager.swift in Sources */,
 				006B3DA52CCA005000D460CC /* LocationTracking.xcdatamodeld in Sources */,
 				006B3D9B2CCA005000D460CC /* AppDelegate.swift in Sources */,
 				006B3D9D2CCA005000D460CC /* SceneDelegate.swift in Sources */,
@@ -357,7 +549,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -420,7 +612,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -441,18 +633,24 @@
 		};
 		006B3DC52CCA005400D460CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CB3A04BF3A32BC54F898CF /* Pods-LocationTracking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M6Q9FV3GHT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LocationTracking/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to track your position even in the background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show your position on the map.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +658,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.locationTracking.LocationTracking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -468,18 +667,24 @@
 		};
 		006B3DC62CCA005400D460CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2A7FFE4F5F178CE1A5331A9 /* Pods-LocationTracking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M6Q9FV3GHT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LocationTracking/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location to track your position even in the background.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to show your position on the map.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -487,6 +692,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.locationTracking.LocationTracking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -495,6 +701,7 @@
 		};
 		006B3DC82CCA005400D460CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A830AF42F02A46D5E4023FAC /* Pods-LocationTrackingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +721,7 @@
 		};
 		006B3DC92CCA005400D460CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B48DC6A9F2EC391734E357F /* Pods-LocationTrackingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +741,7 @@
 		};
 		006B3DCB2CCA005400D460CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78C9CC7581F170C2F91AAB2F /* Pods-LocationTracking-LocationTrackingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +759,7 @@
 		};
 		006B3DCC2CCA005400D460CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 777A58E4950D4951BF02FC14 /* Pods-LocationTracking-LocationTrackingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
